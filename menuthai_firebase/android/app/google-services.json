@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "420186971448",
+    "project_id": "menu-thai",
+    "storage_bucket": "menu-thai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420186971448:android:ea7a80d44ce6c2d424b5cd",
+        "android_client_info": {
+          "package_name": "com.example.menuthai_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATd9J9_BsPQl7H6p6zsb55oRhGwIvewyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
