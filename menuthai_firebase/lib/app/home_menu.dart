@@ -10,6 +10,15 @@ class HomeMenu extends StatefulWidget {
 class _HomeMenuState extends State<HomeMenu> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(title: TextField(decoration: InputDecoration())),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Expanded(child: Container(height: 240, color: Colors.amber)),
+        ),
+      ),
+      floatingActionButton: Icon(Icons.add),
+    );
   }
 }
