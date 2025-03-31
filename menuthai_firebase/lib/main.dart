@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:menuthai_firebase/app/home_menu.dart';
+import 'package:menuthai_firebase/app/UI/home_menu.dart';
+import 'package:menuthai_firebase/app/UI/menu_detailed.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomeMenu(),
+      home: Home(),
     );
   }
 }
